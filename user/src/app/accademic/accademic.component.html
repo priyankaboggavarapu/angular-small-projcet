@@ -1,0 +1,471 @@
+
+            
+
+      <div class="container content-body">
+  <!-- popuplar courses start --> 
+  <div class=""> 
+  <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 academic">
+  	<h1>Academic writing</h1>
+  	<p>The Academic writing Division at Provantel is on par with any of the premier writing services offered online. We are specialised in creating and delivering quality and plagiarism free content along with the assurance of meeting the deadline on time. We have a team of subject knowledge experts who come from diverse academic backgrounds and have been associated with the field of assignment writing as lecturers, professors, industry practitioners, tutors and professors or professional writers as writers, editors or researchers. We offer top quality writing services in various fields with plagiarism-free content, accurate citations and incorporates formatting standards like APA, Harvard, MLA or any customized styles. Our clientele base spans across the UK, US, UAE, Germany, Australia, India...</p>
+
+	<p>Be it an essay, dissertation, custom research, book review, reaction paper or any other course work paper, Provantel provides you with a one stop shop for all your writing needs.</p>
+  </div>
+  <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 academic">
+  	<h1>For Academic Writing Contact</h1>
+	<p class="col-lg-6 col-md-6 col-sm-6 col-xs-12">Email ID :<br><a href="#">writers@provantel.com</a>,<br><a href="#">writers.provantel@gmail.com</a><br> 
+	US Number: (972) 646 8090 <br>
+	India Number: 9966881730</p>
+	 <p class="col-lg-6 col-md-6 col-sm-6 col-xs-12">Address<br>
+	Provantel Global Consulting,<br>
+	Flat No.1010, Suraksha Mellennium, <br>
+	White Fields, Kondapur, Hyderabad - 500084</p>
+	  </div>
+  </div>
+  <div role="tabpanel" class=" tabs-bdr">
+            <div class="col-sm-3">
+                <ul class="nav nav-pills brand-pills nav-stacked" role="tablist">
+                    <li role="presentation" class="brand-nav active"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">our Services</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">Assignment writing</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Dissertation writing</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab">Case study writing</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab5" role="tab" data-toggle="tab">Thesis writing</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab6" role="tab" data-toggle="tab">Journal analysis </a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab7" role="tab" data-toggle="tab">Research analysis</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab8" role="tab" data-toggle="tab">Essay writing</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab9" role="tab" data-toggle="tab">Proof reading</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab10" role="tab" data-toggle="tab">proposal writing</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-9">
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active academic-form" id="tab1">
+                        <h2>Contact</h2>
+                        <div class="col-md-12 col-sm-12">
+                        	<div class="form-group row">
+                        		<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+                        				<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Name :</label>
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Email Address :</label>
+											<input type="text" class="form-control" placeholder="Email Address">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Current Location :</label>
+											<input type="text" class="form-control" placeholder="Locaiton">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>University :</label>
+											<input type="text" class="form-control" placeholder="University">
+										</div>
+									</div>
+								</div>		
+								<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Mobile No :</label>
+											<input type="text" class="form-control" placeholder="Last Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Message :</label>
+											<textarea class="form-control" rows="8" id="comment"></textarea>
+										</div>
+									</div>
+								</div>
+						   </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane academic-form" id="tab2">
+                        <h2>Assignment writing</h2>
+                        <form #contactForm="ngForm" novalidate>
+                        <div class="col-md-12 col-sm-12" >
+                        	<div class="form-group row">
+                        		<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+                        				<div class="col-md-12 col-sm-12 mar-btm" [class.has-error]="Name.invalid && Name.touched">
+											<label>Name :</label>
+											<input type="text" class="form-control" name="Name" #Name="ngModel" [(ngModel)]="contact.Name" placeholder="Name" required>
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm" [class.has-error]="Email.invalid && Email.touched">
+											<label>Email Address :</label>
+											<input type="text" class="form-control"                                  
+                                            name="Email" #Email="ngModel" 
+                                            [(ngModel)]="contact.Email"
+                                            pattern="[a-z0-9!#$%&'*+/=?^-`{l}~-]+(?:\.[a-z0-9!#$%&'*+/=?^-`{l}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9]*[a-z0-9])?"
+                                             placeholder="Email Address" required>
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm" [class.has-error]="CurrentLocation.invalid && CurrentLocation.touched">
+											<label>Current Location :</label>
+											<input type="text" class="form-control" name="CurrentLocation" #CurrentLocation="ngModel"
+                                             (setAddress)="getAddress($event)" googleplace [(ngModel)]="contact.CurrentLocation"
+                                            required
+                                             placeholder="Locaiton">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm" [class.has-error]="University.invalid && University.touched">
+											<label>University :</label>
+											<input type="text" class="form-control" name="University" #University="ngModel" [(ngModel)]="contact.University" placeholder="University" required>
+										</div>
+									</div>
+								</div>		
+								<div class="col-md-6 col-sm-6 col-xs-12" [class.has-error]="MobileNo.invalid && MobileNo.touched">
+                        			<div class="row">
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Mobile No :</label>
+											<input type="text" class="form-control" name="MobileNo" #MobileNo="ngModel" [(ngModel)]="contact.MobileNo"
+                                              maxlength="10" minlength="10"
+                                              placeholder="Last Name" required>
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm" [class.has-error]="Message.invalid && Message.touched">
+											<label>Message :</label>
+											<textarea class="form-control" rows="8" id="comment" #Message="ngModel" name="Message" 
+                                            [(ngModel)]="contact.Message" required></textarea>
+										</div>
+									</div>
+								</div>
+
+                                 <div class="col-md-6">
+                                    <button class="btn btn-primary pull-right" (click)="send(contactForm)">Send 
+                                    <span class="glyphicon glyphicon-send"></span>
+                                </button>
+                                </div>
+						   </div>
+                        </div>
+                        </form>
+                    </div>
+                    
+                    <div role="tabpanel" class="tab-pane academic-form" id="tab3">
+                        <h2>Dissertation writing</h2>
+                        <div class="col-md-12 col-sm-12">
+                        	<div class="form-group row">
+                        		<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+                        				<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Name :</label>
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Email Address :</label>
+											<input type="text" class="form-control" placeholder="Email Address">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Current Location :</label>
+											<input type="text" class="form-control" placeholder="Locaiton">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>University :</label>
+											<input type="text" class="form-control" placeholder="University">
+										</div>
+									</div>
+								</div>		
+								<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Mobile No :</label>
+											<input type="text" class="form-control" placeholder="Last Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Message :</label>
+											<textarea class="form-control" rows="8" id="comment"></textarea>
+										</div>
+									</div>
+								</div>
+						   </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane academic-form" id="tab4">
+                        <h2>Case study</h2>
+                        <div class="col-md-12 col-sm-12">
+                        	<div class="form-group row">
+                        		<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+                        				<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Name :</label>
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Email Address :</label>
+											<input type="text" class="form-control" placeholder="Email Address">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Current Location :</label>
+											<input type="text" class="form-control" placeholder="Locaiton">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>University :</label>
+											<input type="text" class="form-control" placeholder="University">
+										</div>
+									</div>
+								</div>		
+								<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Mobile No :</label>
+											<input type="text" class="form-control" placeholder="Last Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Message :</label>
+											<textarea class="form-control" rows="8" id="comment"></textarea>
+										</div>
+									</div>
+								</div>
+						   </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane academic-form" id="tab5">
+                        <h2>Thesis writing</h2>
+                        <div class="col-md-12 col-sm-12">
+                        	<div class="form-group row">
+                        		<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+                        				<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Name :</label>
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Email Address :</label>
+											<input type="text" class="form-control" placeholder="Email Address">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Current Location :</label>
+											<input type="text" class="form-control" placeholder="Locaiton">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>University :</label>
+											<input type="text" class="form-control" placeholder="University">
+										</div>
+									</div>
+								</div>		
+								<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Mobile No :</label>
+											<input type="text" class="form-control" placeholder="Last Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Message :</label>
+											<textarea class="form-control" rows="8" id="comment"></textarea>
+										</div>
+									</div>
+								</div>
+						   </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane academic-form" id="tab6">
+                        <h2>Journal analysis</h2>
+                        <div class="col-md-12 col-sm-12">
+                        	<div class="form-group row">
+                        		<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+                        				<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Name :</label>
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Email Address :</label>
+											<input type="text" class="form-control" placeholder="Email Address">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Current Location :</label>
+											<input type="text" class="form-control" placeholder="Locaiton">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>University :</label>
+											<input type="text" class="form-control" placeholder="University">
+										</div>
+									</div>
+								</div>		
+								<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Mobile No :</label>
+											<input type="text" class="form-control" placeholder="Last Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Message :</label>
+											<textarea class="form-control" rows="8" id="comment"></textarea>
+										</div>
+									</div>
+								</div>
+						   </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane academic-form" id="tab7">
+                        <h2>Research analysis</h2>
+                        <div class="col-md-12 col-sm-12">
+                        	<div class="form-group row">
+                        		<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+                        				<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Name :</label>
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Email Address :</label>
+											<input type="text" class="form-control" placeholder="Email Address">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Current Location :</label>
+											<input type="text" class="form-control" placeholder="Locaiton">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>University :</label>
+											<input type="text" class="form-control" placeholder="University">
+										</div>
+									</div>
+								</div>		
+								<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Mobile No :</label>
+											<input type="text" class="form-control" placeholder="Last Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Message :</label>
+											<textarea class="form-control" rows="8" id="comment"></textarea>
+										</div>
+									</div>
+								</div>
+						   </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane academic-form" id="tab8">
+                        <h2>Essay writing</h2>
+                        <div class="col-md-12 col-sm-12">
+                        	<div class="form-group row">
+                        		<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+                        				<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Name :</label>
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Email Address :</label>
+											<input type="text" class="form-control" placeholder="Email Address">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Current Location :</label>
+											<input type="text" class="form-control" placeholder="Locaiton">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>University :</label>
+											<input type="text" class="form-control" placeholder="University">
+										</div>
+									</div>
+								</div>		
+								<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Mobile No :</label>
+											<input type="text" class="form-control" placeholder="Last Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Message :</label>
+											<textarea class="form-control" rows="8" id="comment"></textarea>
+										</div>
+									</div>
+								</div>
+						   </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane academic-form" id="tab9">
+                        <h2>Proof reading</h2>
+                        <div class="col-md-12 col-sm-12">
+                        	<div class="form-group row">
+                        		<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+                        				<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Name :</label>
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Email Address :</label>
+											<input type="text" class="form-control" placeholder="Email Address">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Current Location :</label>
+											<input type="text" class="form-control" placeholder="Locaiton">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>University :</label>
+											<input type="text" class="form-control" placeholder="University">
+										</div>
+									</div>
+								</div>		
+								<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Mobile No :</label>
+											<input type="text" class="form-control" placeholder="Last Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Message :</label>
+											<textarea class="form-control" rows="8" id="comment"></textarea>
+										</div>
+									</div>
+								</div>
+						   </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane academic-form" id="tab10">
+                        <h2>proposal writing</h2>
+                        <div class="col-md-12 col-sm-12">
+                        	<div class="form-group row">
+                        		<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+                        				<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Name :</label>
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Email Address :</label>
+											<input type="text" class="form-control" placeholder="Email Address">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Current Location :</label>
+											<input type="text" class="form-control" placeholder="Locaiton">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>University :</label>
+											<input type="text" class="form-control" placeholder="University">
+										</div>
+									</div>
+								</div>		
+								<div class="col-md-6 col-sm-6 col-xs-12">
+                        			<div class="row">
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Mobile No :</label>
+											<input type="text" class="form-control" placeholder="Last Name">
+										</div>
+										<div class="col-md-12 col-sm-12 mar-btm">
+											<label>Message :</label>
+											<textarea class="form-control" rows="8" id="comment"></textarea>
+										</div>
+									</div>
+								</div>
+						   </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div role="tabpanel" class="tab-pane" id="tab2">
+                        <p>
+                            Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. 
+                            Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.
+                            Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium.
+                            Qui animated corpse, cricket bat max brucks terribilem incessu zomby. 
+                        </p>
+                        <p>
+                            The voodoo sacerdos flesh eater, suscitat mortuos comedere 
+                            carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains an Undead zombies. 
+                            Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  <!-- popuplar courses end -->
+      
+</div>
+<app-footer></app-footer>

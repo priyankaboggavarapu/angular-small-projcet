@@ -1,0 +1,27 @@
+{
+  "name": "ems-mean1",
+  "version": "1.0.0",
+  "description": "simple mean apps",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "sikandar abu rakib",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.9.1",
+    "mongoose-unique-validator": "^1.0.5",
+    "mongoose-validator": "^1.3.2",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,10 @@
+.footer-menu li a {
+    color: #bcbcbc;
+    font-size: 13px;
+    line-height: 26px;
+}
+.footer-menu.wid-50-left {
+    width: 42%;
+    float: right;
+        margin-top: -31%;
+}
